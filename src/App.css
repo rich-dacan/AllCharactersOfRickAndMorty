@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url(./porta.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-blend-mode: color-dodge; */
+  
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track
+{
+  background-color: #42B4CA;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #BFDE42;
+  border-radius: 30px;
+}
+
+.next__page
+{
+  padding: 20px;
+
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  border-radius: 10px;
+  background-color: #42B4CA;
+  border: solid 3px #BFDE42 ;
+  color: #BFDE42;
+  
+
+}
+.next__page:hover
+{
+  box-shadow: 0px 0px 30px #BFDE42;
+  cursor: pointer;
+}
+
