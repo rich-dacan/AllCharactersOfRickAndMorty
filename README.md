@@ -1,5 +1,5 @@
 # View this project in vercel:
-https://rick-and-morty-self.vercel.app/
+https://rickand-morty-apic-ompleted.vercel.app/
 
 # Getting Started with Create React App
 
