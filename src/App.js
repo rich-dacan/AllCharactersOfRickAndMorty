@@ -22,7 +22,7 @@ function App() {
     }
 
     window.scrollTo({
-      top: 0,
+      top: 130,
       behavior: "smooth",
     });
   };
@@ -37,6 +37,8 @@ function App() {
       })
       .catch(err => console.log(err));
   }, [currentPage]);
+
+  console.log(characterList);
 
   return (
     <div className="App">

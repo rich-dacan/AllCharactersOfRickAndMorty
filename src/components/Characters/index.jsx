@@ -23,17 +23,19 @@ const Characters = ({ listCharacters }) => {
             type,
             origin,
             location,
+            episode,
           }) => (
             <CharCard
+              key={id}
               name={name}
               image={image}
-              key={id}
               status={status}
               species={species}
               gender={gender}
               type={type || "Unknown"}
               origin={origin.name}
               location={location.name}
+              episode={episode}
             />
           )
         )}

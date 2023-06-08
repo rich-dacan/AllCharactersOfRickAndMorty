@@ -76,6 +76,11 @@ li img {
   width: 150px;
 }
 
+a {
+  font-weight: 900;
+  color: #bfde42;
+}
+
 .dead {
   background-color: #770000;
 }

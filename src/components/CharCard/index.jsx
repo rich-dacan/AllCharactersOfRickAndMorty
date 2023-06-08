@@ -9,6 +9,7 @@ const CharCard = ({
   type,
   origin,
   location,
+  episode,
 }) => {
   return (
     <>
@@ -40,6 +41,14 @@ const CharCard = ({
               <p>
                 <b>Location:</b> {location}
               </p>
+              <a
+                href={episode[0]}
+                target="_blank"
+                rel="noreferrer"
+                title="see-this-episode"
+              >
+                See episode
+              </a>
             </div>
           </div>
         </div>
@@ -71,6 +80,14 @@ const CharCard = ({
               <p>
                 <b>Location:</b> {location}
               </p>
+              <a
+                href={episode[0]}
+                target="_blank"
+                rel="noreferrer"
+                title="see-this-episode"
+              >
+                See episode
+              </a>
             </div>
           </div>
         </div>
