@@ -103,16 +103,14 @@ a {
     width: 100%;
     height: max-content;
     padding: 0;
-    margin: 0;
   }
 
   .front {
-    height: max-content;
+    height: 500px;
   }
 
   .back {
     margin-top: 20px;
-    /* width: 320px; */
     margin: 0 auto;
   }
 
@@ -128,6 +126,6 @@ a {
     border: 5px solid #bfde42;
     border-radius: 10px;
 
-    width: 100px;
+    width: 200px;
   }
 }
