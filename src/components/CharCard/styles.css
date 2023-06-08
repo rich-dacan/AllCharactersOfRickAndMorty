@@ -84,6 +84,7 @@ a {
 .dead {
   background-color: #770000;
 }
+
 .alive {
   background-color: #bfde42;
   color: #282c34;
@@ -92,7 +93,8 @@ a {
 @media screen and (max-width: 500px) {
   .flip-container {
     width: 80vw;
-    height: 300px;
+    height: max-content;
+    min-height: 400px;
   }
 
   .card__container {
@@ -106,12 +108,14 @@ a {
   }
 
   .front {
-    height: 500px;
+    height: max-content;
   }
 
   .back {
     margin-top: 20px;
     margin: 0 auto;
+    height: max-content;
+    padding-bottom: 20px;
   }
 
   .name__person {
