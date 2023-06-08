@@ -1,10 +1,13 @@
 import "./styles.css";
 import CharCard from "../CharCard";
 
-const Characters = ({ listCharacters }) => {
+const Characters = ({ listCharacters, page }) => {
   return (
     <>
-      <h1>Characters from </h1>
+      <span className="main__title">
+        <h1>Characters from </h1>
+        <h3>Page: {page}</h3>
+      </span>
       <img
         className="logo"
         src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg"

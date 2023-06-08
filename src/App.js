@@ -22,7 +22,7 @@ function App() {
     }
 
     window.scrollTo({
-      top: 130,
+      top: 100,
       behavior: "smooth",
     });
   };
@@ -38,14 +38,17 @@ function App() {
       .catch(err => console.log(err));
   }, [currentPage]);
 
-  console.log(characterList);
+  console.log(pageInfo);
 
   return (
     <div className="App">
       <header className="App-header">
         <div>
           {characterList.length < 1 && <LoadingSpinner />}
-          <Characters listCharacters={characterList} />
+          <Characters
+            listCharacters={characterList}
+            page={pageInfo?.next?.slice(-1) - 1}
+          />
         </div>
 
         <button className="next__page" onClick={() => handlePaginate("next")}>
