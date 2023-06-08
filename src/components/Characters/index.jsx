@@ -31,7 +31,7 @@ const Characters = ({ listCharacters }) => {
               status={status}
               species={species}
               gender={gender}
-              type={type}
+              type={type || "Unknown"}
               origin={origin.name}
               location={location.name}
             />
