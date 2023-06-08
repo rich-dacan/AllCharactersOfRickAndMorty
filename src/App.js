@@ -50,12 +50,20 @@ function App() {
           />
         </div>
 
-        <button className="next__page" onClick={() => handlePaginate("next")}>
-          Next Page
-        </button>
-        <button className="next__page" onClick={() => handlePaginate("prev")}>
-          Prev Page
-        </button>
+        <div className="buttons__wrapper">
+          <button
+            className="btn__pagination"
+            onClick={() => handlePaginate("prev")}
+          >
+            Prev Page
+          </button>
+          <button
+            className="btn__pagination"
+            onClick={() => handlePaginate("next")}
+          >
+            Next Page
+          </button>
+        </div>
       </header>
     </div>
   );

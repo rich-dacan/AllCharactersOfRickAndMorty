@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   /* background-blend-mode: color-dodge; */
-  
+
 }
 
 ::-webkit-scrollbar
@@ -33,7 +33,7 @@
   border-radius: 30px;
 }
 
-.next__page
+.btn__pagination
 {
   padding: 20px;
 
@@ -45,12 +45,27 @@
   background-color: #42B4CA;
   border: solid 3px #BFDE42 ;
   color: #BFDE42;
-  
+  transition: all ease-in-out .25s;
+
 
 }
-.next__page:hover
+.btn__pagination:hover
 {
+  transform: scale(1.1);
   box-shadow: 0px 0px 30px #BFDE42;
   cursor: pointer;
 }
 
+.buttons__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 600px) {
+  .btn__pagination {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
