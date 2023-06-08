@@ -1,12 +1,15 @@
 import "./styles.css";
 import CharCard from "../CharCard";
 
-const Characters = ({ listCharacters, page }) => {
+const Characters = ({ listCharacters, page, totalPage }) => {
   return (
     <>
       <span className="main__title">
         <h1>Characters from </h1>
-        <h3>Page: {page}</h3>
+        <h3>
+          Actual page: <strong>{page}</strong> | Total pages:{" "}
+          <strong>{totalPage}</strong>
+        </h3>
       </span>
       <img
         className="logo"

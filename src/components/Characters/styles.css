@@ -10,6 +10,11 @@ h3 {
   color: #BFDE42;
   font-size: 2rem;
   font-weight: 700;
+  padding: 10px 0;
+}
+
+strong {
+  color: #fff;
 }
 
 .main__title {
